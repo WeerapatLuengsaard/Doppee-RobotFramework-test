@@ -1,10 +1,10 @@
-#Doppee Robot Framework Project
+# Doppee Robot Framework Project
 
 Description
 
 This Project is required by Doppiotech to test the candidate skills
 
-##Prerequistes
+## Prerequistes
 
   Python 3.13.7
   
@@ -16,7 +16,7 @@ This Project is required by Doppiotech to test the candidate skills
   
   Selenium Library
   
-##Installation
+## Installation
 
 Clone Respository
 
@@ -24,16 +24,16 @@ git clone https://github.com/WeerapatLuengsaard/Doppee-RobotFramework-test.git
 
 cd tests
 
-Install dependencies
+## Install dependencies
 
 pip install -r requirement.txt
 
 
-##Running Tests
+## Running Tests
 
 EX. robot Testcases.robot
 
-Parrallel Tests
+## Parrallel Tests
 
 pabot --processes 2 .
 
