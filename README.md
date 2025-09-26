@@ -1,10 +1,10 @@
-Robot Framework Project
+#Doppee Robot Framework Project
 
 Description
 
 This Project is required by Doppiotech to test the candidate skills
 
-Prerequistes
+##Prerequistes
 
   Python 3.13.7
   
@@ -16,7 +16,7 @@ Prerequistes
   
   Selenium Library
   
-Installation
+##Installation
 
 Clone Respository
 
@@ -29,7 +29,7 @@ Install dependencies
 pip install -r requirement.txt
 
 
-Running Tests
+##Running Tests
 
 EX. robot Testcases.robot
 
