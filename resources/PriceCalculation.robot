@@ -25,7 +25,7 @@ Verify price calculation
     ${total_novat}=    Convert To Number    ${total_novat_text.replace('THB ', '').replace(',', '')}
     # ===== Step 3: คำนวณราคา =====
     ${Finalprice}=    Evaluate    ${subtotal} + ${shipping} + ${vat} - ${discount}    #with vat
-    # ${FinalpriceNoVat}=    Evaluate    (${subtotal} - ${discount}) + ${shipping}    
+    # ${FinalpriceNoVat}=    Evaluate    (${subtotal} - ${discount}) + ${shipping}    การคำณวนตามสูตรที่ได้แต่ไม่ได้เทียบเนื่องจากเว็บไม่ได้แสดง
     Log    Final calculation ${Finalprice}
     # Log    Final calculation no vat ${FinalpriceNoVat}    
     Should Be Equal As Numbers    ${Finalprice}    ${total_price}    precision=0.01
