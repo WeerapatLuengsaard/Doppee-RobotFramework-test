@@ -14,7 +14,18 @@ Installation
 
 Clone Respository
 git clone https://github.com/WeerapatLuengsaard/Doppee-RobotFramework-test.git
+
 cd tests
 
 Install dependencies
 pip install -r requirement.txt
+
+
+Running Tests
+EX. robot Testcases.robot
+
+Parrallel Tests
+pabot --processes 2 .
+
+Browser Settings
+Chrome 
