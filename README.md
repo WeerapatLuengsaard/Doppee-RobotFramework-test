@@ -26,8 +26,9 @@ cd tests
 
 ## Install dependencies
 
-pip install -r requirement.txt
+pip install -r requirement.txt or
 
+pip install robotframework==7.3.2 robotframework-seleniumlibrary==6.7.1 robotframework-pabot==5.1.0 selenium==4.35.0
 
 ## Running Tests
 
